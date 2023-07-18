@@ -1,4 +1,3 @@
-import time
 from PyQt5.QtCore import *
 
 class Worker(QThread):

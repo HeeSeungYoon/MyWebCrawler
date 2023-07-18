@@ -142,7 +142,7 @@ class MyApp(QWidget):
         self.imageNum = 1
         success = 0
         failed = 0
-        self.cnt = 0
+        cnt = 0
 
         self.initSavingUI()
 
@@ -177,7 +177,7 @@ class MyApp(QWidget):
                 failed+=1
                 pass      
             # yield cnt+1
-            print('%dth saving... success : %d / failed : %d'%(self.cnt+1, success, failed))
+            print('%dth saving... success : %d / failed : %d'%(cnt+1, success, failed))
             self.cnt += 1
             self.worker.run()
             if self.cnt >= self.progressBar.maximum():
