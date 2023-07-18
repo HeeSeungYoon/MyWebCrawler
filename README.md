@@ -11,10 +11,23 @@
 * Selenium
 
 ## 3. 핵심 기능
-1. 작동 과정
+<details>
+<summary>1. 검색 </summary>
+  
+  ![검색](./image/mainwindow.PNG) 
+</details>
 
-![크롤링할 이미지 검색어 입력](./image/mainwindow.PNG)
+<details>
+  <summary> 2. 크롤링 </summary>
+  
+  ![크롤링](./image/crawling.gif)  
+</details>
 
+<details>
+  <summary> 3. 저장 </summary>
+  
+  ![완료](./image/complete.PNG)
+</details>
 
 ## 4. 오류 및 개선 사항
 
