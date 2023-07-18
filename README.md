@@ -8,7 +8,13 @@
 ## 2. 기술 스택
 * Python 3.11.4
 * PyQt5 5.15.9 - 파이썬 플러그인으로 구현된 크로스 플랫폼 GUI 툴킷 Qt의 파이썬 바인딩
+  ```
+  pip install pyqt5
+  ```
 * Selenium 4.10.0 - 웹 애플리케이션 자동화 및 테스트를 위한 포터블 프레임워크
+  ```
+  pip install selenium
+  ```
 
 ## 3. 핵심 기능
 <details>
