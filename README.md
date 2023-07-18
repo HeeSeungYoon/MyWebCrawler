@@ -120,3 +120,6 @@ css_selector와 이미지의 class 요소 id를 통해 DOM 구조에 접근하�
 ## 5. 저작권 및 라이선스
 * GNU GPL v3
 * Apache-2.0
+
+  ---
+Contact : <iyhs1858@gmail.com> 
