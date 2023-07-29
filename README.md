@@ -6,8 +6,6 @@
 * 개인 프로젝트
 
 ## 2. 기술 스택 및 개발 환경
-* OS : Window 11
-* IDE : Visual Studio Code
 
 * Python 3.11.4
 * PyQt5 5.15.9 - 파이썬 플러그인으로 구현된 크로스 플랫폼 GUI 툴킷 Qt의 파이썬 바인딩
@@ -18,6 +16,9 @@
   ```
   pip install selenium
   ```
+---
+* 실행환경 : Window 11
+* IDE : Visual Studio Code
 
 ## 3. 핵심 기능
 <details>
