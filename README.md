@@ -25,12 +25,10 @@
 * IDE : Visual Studio Code
 
 ## 4. 핵심 기능
-<details>
-<summary>1. 검색
+1. 검색
 
   * 검색할 키워드를 텍스트바에 입력하고 검색버튼을 누르면 크롬브라우저가 실행되어 구글 이미지 검색 사이트로 연결
   * 종료 버튼을 누르면 프로그램 종료
- </summary>
 
   ![검색](./image/mainwindow.PNG) 
   
@@ -50,13 +48,10 @@
   webdriver의 옵션을 설정하고 구글 이미지 사이트에 연결하는 단계
   
   ---
-</details>
 
-<details>
-  <summary> 2. 크롤링
+2. 크롤링
 
   * Chrome DOM 구조의 HTML과 CSS의 요소에 접근하여 이미지 객체 정보 추출
- </summary>
  
 ```python
 SCROLL_PAUSE_TIME = 1
@@ -83,14 +78,10 @@ css_selector와 이미지의 class 요소 id를 통해 DOM 구조에 접근하�
 
 ---
 
-</details>
-
-<details>
-  <summary> 3. 저장
+ 3. 저장
   
   * 이미지 디렉터리를 생성하고 이미지 url을 통해 원본 이미지를 저장
   * 저장 중인 상태를 progress bar에 표시
- </summary>
  
   ![크롤링](./image/crawling.gif)  
 
@@ -120,7 +111,6 @@ css_selector와 이미지의 class 요소 id를 통해 DOM 구조에 접근하�
   저장이 완료되면 총 이미지 개수와 저장에 성공한 이미지, 저장에 실패한 이미지 개수를 새 창에 표시
 
   ---
-</details>
 
 ## 5. 오류 및 개선 사항
 
